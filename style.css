@@ -1,0 +1,174 @@
+.container{
+	width: 100%;
+	height: auto;
+    position: absolute;
+	z-index: 10;
+	top: 0;
+}
+
+
+
+#bg-video{
+    position: fixed;
+    width: auto;
+    height:auto;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+  }
+
+  .nav-main{
+	padding: 2%;
+	margin-left: 50px;
+  }
+
+.menu{
+	width: 100%;
+	height: 120px;
+	background-color: rgb(255, 186, 0);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+ul.up{
+	display: flex;
+	width: 100%;
+	height: 70px;
+	margin: 0px auto;
+	justify-content: space-around;
+}
+
+ul.up > li{
+	padding:10px;
+}
+ul.up > li > a{
+
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+
+
+.down{
+	height: 50px;
+	width: 80%;
+	
+}
+.form-footer{
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+input{
+	height: 30px;
+	width: 300px;
+	padding-left: 3px;
+}
+p{
+	margin-top: 8px;
+}
+.footer{
+	background-color: orangered;
+	height: 20px;
+	width: 100%;
+}
+.search{
+	height: 40px;
+	width: 550px;
+	background-color: white;
+	border-radius: 5px;
+	display: flex;
+}
+.search input{
+	width: 480px;
+	height: 35px;
+	border: 0px;
+	padding-left: 20px;
+	font-size: 15px;
+	border-radius: 5px;
+
+}
+.search button{
+
+	/*height: 35px;*/
+	border: 0px;
+}
+
+.content{	position: relative; z-index: 10;}
+ul.content-01{
+	margin: 20px auto;
+	display: flex;
+}
+ul.content-01>li{
+	margin: 5px;
+}
+.content-03{
+	margin-right: 80px;
+	margin-left: 250px;
+}
+.block{
+	background-color: rgb(248, 240, 240);
+	height: auto;
+	width: 180px;
+	padding: 5px;
+	border-radius: 4px;
+}
+button{
+	background-color: rgb(253, 51, 0);
+	height: 30px;
+	width: 70px;
+	border-radius: 3px;
+	border: none;
+	
+}
+button:hover{
+	background: rgb(194, 58, 9);
+}
+h4{
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+ img{
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+}
+
+h2{
+	position: absolute;
+	top: 90px;
+	left: 20px;
+	font-weight: bold;
+	color: white;
+}
+footer{
+
+	bottom: 0;
+	z-index: 10;
+	display: flex;
+		background-color:#ccc;
+		text-align:center;
+		padding:25px;
+		font-size:18px;
+		height: 50px;
+}
+
+.footer-flex{
+	display: flex;
+	background-color: rgb(245, 105, 12);
+	justify-content: space-between;
+}
+
+.footer-flex > p{ color: rgb(184, 178, 178)}
+
+.contact{
+	margin-right: 100px;
+	margin-top: 10px;
+}
